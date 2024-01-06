@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sanika Rithe - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sanika Rithe</h1>
+            <p>Web Developer | Designer | Front-end Developer</p>
+            <h6>Pursuing Bachelors of Engineering in Information Technology at Pune Institute of Computer Technology</h6>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html"> Home</a></li>
+                <li><a href="portfolio.html"> Portfolio</a ></li>
+                <li><a href="skills.html"> Skills</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!--outside container-->
+    <div class="container-s">
+        <div class="skill-category">
+            <h3>SKILLS</h3>
+            <!-- first row div-->
+            <div class="skills-row">
+                <div class="skill">
+                    <span class="skill-name">HTML</span>
+                    <!-- progress bar div -->
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;">90%</div>
+                    </div>
+                    <!--progress bar div end -->
+                </div>   
+                <!-- first row first skill info end -->
+                <div class="skill">
+                    <span class="skill-name">CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+            </div>
+             
+            <!--second row div --> 
+            <div class="skills-row">
+                <div class="skill">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">Django</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- third row div -->
+            <div class="skills-row">
+                <div class="skill">
+                    <span class="skill-name">Front-end Development</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">MySql</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+            </div>
+
+            {% comment %} fourth row div {% endcomment %}
+            <div class="skills-row">
+                <div class="skill">
+                    <span class="skill-name">C++</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">Data Structure</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--fifth row div --> 
+            <div class="skills-row">
+                <!--Button div for other skills -->
+                <div class="skill-other">
+                    <button id="skillsText" onclick="toggleSkills()">Tap to see additional Skills</button>
+                    <p id="additionalSkills">BootStrap, Python, Wordpress</p>
+                </div>
+            </div>
+            <script src="script.js"></script>
+
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <p>Contact: 
+            <span class="contact-info"><a href="mailto:rithe.sanika@gmail.com">rithe.sanika@gmail.com</a></span>
+            <span class="separator">|</span>
+            <span class="contact-info">Phone: +91 8329425716</span>
+            <span class="separator">|</span>
+            <span class="contact-info"><a href="https://www.linkedin.com/in/sanika-rithe-55406a222/">LinkedIn Profile</a></span>
+            <span class="separator">|</span>
+            <span class="contact-info">Address: Pune, India</span>
+        </p>
+    </footer>
+
+</body>
+</html>

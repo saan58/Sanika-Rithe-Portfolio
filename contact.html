@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sanika Rithe - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sanika Rithe</h1>
+            <p>Web Developer | Designer | Front-end Developer</p>
+            <h6>Pursuing Bachelors of Engineering in Information Technology at Pune Institute of Computer Technology</h6>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html"> Home</a></li>
+                <li><a href="portfolio.html"> Portfolio</a></li>
+                <li><a href="skills.html"> Skills</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contact form-->
+    <div class="contact">
+        <!--validate form while clicking submit-->
+        <form onsubmit="return validateForm()">
+            <label for="email">Email id*</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter email id" required>
+            <span id="emailError" class="error"></span><br>
+
+            <label for="name">Full Name*</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter full name" required>
+            <span id="nameError" class="error"></span><br>
+
+            <label for="message">Message*</label><br>
+            <input type="text" id="message" name="message" placeholder="Type a message">
+            <span id="messageError" class="error"></span><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!--code for validate form function written in this file-->
+    <script src="script.js"></script>
+
+    <!--footer-->
+    <footer>
+        <p>Contact: 
+            <span class="contact-info"><a href="mailto:rithe.sanika@gmail.com">rithe.sanika@gmail.com</a></span>
+            <span class="separator">|</span>
+            <span class="contact-info">Phone: +91 8329425716</span>
+            <span class="separator">|</span>
+            <span class="contact-info"><a href="https://www.linkedin.com/in/sanika-rithe-55406a222/">LinkedIn Profile</a></span>
+            <span class="separator">|</span>
+            <span class="contact-info">Address: Pune, India</span>
+        </p>
+    </footer>
+</body>
+</html>

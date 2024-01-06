@@ -1,0 +1,324 @@
+/* CSS for Home page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* setting background image to body section */
+    background-image: url("pictures/img1.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px;
+    background-color: rgb(9, 1, 35);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* header */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke
+}
+
+header h6 {
+    margin: 0px;
+    padding: 0px;
+    color: slategray;
+}
+
+header p {
+    margin-top: 7px;
+    padding: 0px;
+    color: slategrey;
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(9, 1, 35);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: slategray;
+    margin: 5px 0;
+}
+
+footer a {
+    color: slategray;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: aliceblue;
+}
+
+.contact-info {
+    display: inline;
+}
+
+.separator {
+    margin: 0 5px;
+    /* Adjust the margin as needed */
+}
+
+
+/* CSS for Home page-nav bar */
+
+nav {
+    background-color: black;
+    height: 25px;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+    box-shadow: #5699b6;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: #5699b6;
+    color: black;
+}
+
+
+/* CSS for Home page- Inroduction */
+
+.intro {
+    display: flexbox;
+    background-color: whitesmoke;
+    height: 300px auto;
+    max-width: 800px;
+    opacity: 80%;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.intro-cont {
+    display: block;
+    justify-content: center;
+    padding: 30px;
+    text-align: justify;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    padding: 7px;
+    background-color: black;
+    color: #fff;
+    text-decoration: underline;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    opacity: 100%;
+}
+
+.button:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+
+/* CSS for Portfolio */
+
+.container-p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.project-card {
+    display: flex;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-justify: justify;
+}
+
+.project-card:hover {
+    background-color: aliceblue;
+}
+
+.project-details {
+    flex: 1;
+    text-justify: justify;
+}
+
+.project-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project-details p {
+    display: block;
+    color: #555;
+    margin: 10px;
+}
+
+
+/* CSS for Conatct form */
+
+.contact {
+    max-width: 300px auto;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+input[type=text] {
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    height: 50px;
+}
+
+input[type=text]:hover {
+    background-color: rgb(9, 1, 35);
+    color: white;
+}
+
+button[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: rgb(9, 1, 35);
+}
+
+input[type=textbox] {
+    width: 250px;
+    height: 50px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact h4 {
+    display: block;
+}
+
+
+/* CSS for skill page*/
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill-category {
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill-category h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.skill {
+    width: 48%;
+    background-color: #fff;
+}
+
+.skill:hover {
+    background-color: aliceblue;
+}
+
+.skill-name {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.skill-other {
+    justify-content: center;
+    background-color: #fff;
+    padding: 5px;
+    color: #333;
+    max-width: 300px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #5699b6;
+}
+
+#additionalSkills {
+    display: none;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: aliceblue;
+}
