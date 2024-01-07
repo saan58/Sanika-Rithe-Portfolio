@@ -185,6 +185,7 @@ h3 {
 .project-details {
     flex: 1;
     text-justify: justify;
+    width: 50%;
 }
 
 .project-details h3 {
